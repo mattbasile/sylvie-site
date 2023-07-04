@@ -551,6 +551,10 @@ video {
   margin-top: 1rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -873,6 +877,10 @@ video {
 @media (min-width: 768px) {
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .md\:mb-4 {
+    margin-bottom: 1rem;
   }
 
   .md\:h-\[200px\] {
