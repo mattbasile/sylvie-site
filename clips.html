@@ -6,32 +6,83 @@
     <link href="./dist/output.css" rel="stylesheet" />
     <title>Sylvie Florman - Clips</title>
 
-    <meta name="description" content="Sylvie Florman clips portfolio. Sylvie is a freelance writer and content strategist based in New York City. She covers food, travel, and culture.">
-    <meta name="keywords" content="Sylvie Florman clips, clips portfolio, Freelance writer, Brooklyn writer, Travel writer, Food writer">
-    
+    <meta
+      name="description"
+      content="Sylvie Florman clips portfolio. Sylvie is a freelance writer and content strategist based in New York City. She covers food, travel, and culture."
+    />
+    <meta
+      name="keywords"
+      content="Sylvie Florman clips, clips portfolio, Freelance writer, Brooklyn writer, Travel writer, Food writer"
+    />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.sylvieflorman.com/clips.html">
-    <meta property="og:title" content="Sylvie Florman - Clips">
-    <meta property="og:description" content="Sylvie Florman clips portfolio. Sylvie is a freelance writer and content strategist based in New York City. She covers food, travel, and culture.">
-    <meta property="og:image" content="http://www.sylvieflorman.com/img/twitter-image.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.sylvieflorman.com/clips.html" />
+    <meta property="og:title" content="Sylvie Florman - Clips" />
+    <meta
+      property="og:description"
+      content="Sylvie Florman clips portfolio. Sylvie is a freelance writer and content strategist based in New York City. She covers food, travel, and culture."
+    />
+    <meta
+      property="og:image"
+      content="http://www.sylvieflorman.com/img/twitter-image.jpg"
+    />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="http://www.sylvieflorman.com/clips.html">
-    <meta property="twitter:title" content="Sylvie Florman - Clips">
-    <meta property="twitter:description" content="Sylvie Florman clips portfolio. Sylvie is a freelance writer and content strategist based in New York City. She covers food, travel, and culture.">
-    <meta property="twitter:image" content="http://www.sylvieflorman.com/img/twitter-image.jpg">
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="http://www.sylvieflorman.com/clips.html"
+    />
+    <meta property="twitter:title" content="Sylvie Florman - Clips" />
+    <meta
+      property="twitter:description"
+      content="Sylvie Florman clips portfolio. Sylvie is a freelance writer and content strategist based in New York City. She covers food, travel, and culture."
+    />
+    <meta
+      property="twitter:image"
+      content="http://www.sylvieflorman.com/img/twitter-image.jpg"
+    />
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="./assets/img/favicon/safari-pinned-tab.svg" color="#171717">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./assets/img/favicon/safari-pinned-tab.svg"
+      color="#171717"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <style>
+      .active{
+        color: #171717;
+      }
+      .tabcontent {
+        animation: fadeEffect 1s; /* Fading effect takes 1 second */
+      }
+      /* Go from zero to full opacity */
+      @keyframes fadeEffect {
+        from {opacity: 0;}
+        to {opacity: 1;}
+      }
+    </style>
   </head>
   <body class="px-12 max-w-6xl mx-auto py-11">
     <nav class="text-center md:text-left">
@@ -63,131 +114,257 @@
         </a>
       </nav>
     </nav>
+    <!-- Insert tabs -->
     <main
       class="mt-12 text-xl leading-7 space-y-8 text-midnight font-sans font-normal"
     >
-      <a
-        href="https://ediblemanhattan.mydigitalpublication.com/publication/?m=62724&i=824754&p=26&ver=html5"
-        target="_blank"
-        class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
+      <div
+        class="tabs mt-4 items-center justify-center md:space-between w-full uppercase text-xs text-gray space-x-8 md:space-x-10"
       >
-        <img
-          class="rounded-xl w-full col-span-1 object-cover h-[200px]"
-          src="./assets/img/edible-manhattan.webp"
-          alt="Edible Manhatthan logo"
-        />
-        <div class="col-span-1 md:col-span-3 text-midnight">
-          <p class="uppercase text-xs md:text-sm">Edible Manhattan</p>
-          <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
-            Intersections: Urban Planning x Outdoor Dining
-          </h2>
-           <p class="text-sm md:text-lg">
-            Cityscapes vs. Tablescapes: The challenges of outdoor dining
-          </p>
-        </div>
-      </a>
-      <a
-        href="https://www.cntraveler.com/story/this-tiktok-account-celebrates-americas-kitschiest-hotels"
-        target="_blank"
-        class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
-      >
-        <img
-          class="rounded-xl w-full col-span-1 object-cover h-[200px]"
-          src="./assets/img/Cool-Hotel-Tour.webp"
-          alt="A pretty cool Hotel Tour cover image from Condé Nast Traveler"
-        />
-        <div class="col-span-1 md:col-span-3 text-midnight">
-          <p class="uppercase text-xs md:text-sm">CONDÉ NAST TRAVELER</p>
-          <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
-            This TikTok Account Celebrates America’s Kitschiest Hotels
-          </h2>
-           <p class="text-sm md:text-lg">
-            ‘A Pretty Cool Hotel Tour’ features rooms decked out with
-            heart-shaped tubs, Roman chariot beds, and more.
-          </p>
-        </div>
-      </a>
-      <a
-        href="https://www.architecturaldigest.com/story/yuns-hardware-store-kelly-wright-interview"
-        target="_blank"
-        class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
-      >
-        <img
-          class="rounded-xl col-span-1 w-full object-cover h-[200px]"
-          src="./assets/img/AD-Cover.webp"
-          alt="A flat shot of the Chapman screw set currently available at YUNSPhoto: Dereck Brewer for YUNS"
-        />
-        <div class="col-span-1 md:col-span-3 text-midnight">
-          <p class="uppercase text-xs md:text-sm">Architectural Digest</p>
-          <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
-            This Modern Hardware Store Will Help You Get Over Your Toolbox
-            Anxiety
-          </h2>
-          <p class="text-sm md:text-lg" >For Kelly Wright of Yuns, hardware is about more than tools.</p>
-        </div>
-      </a>
-      <a
-        href="https://www.cntraveler.com/story/meet-the-women-making-tinned-fish-cool"
-        target="_blank"
-        class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
-      >
-        <img
-          class="rounded-xl col-span-1 w-full object-cover h-[200px]"
-          src="./assets/img/SalmonSisters.webp"
-          alt="An image of the salmon sisters preparing a salmon, Courtesy Salmon Sisters"
-        />
-        <div class="col-span-1 md:col-span-3 text-midnight">
-          <p class="uppercase text-xs md:text-sm">Condé Nast Traveler</p>
-          <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
-            Meet the Women Making Tinned Fish Cool
-          </h2>
-           <p class="text-sm md:text-lg" >
-            A string of female entrepreneurs are working to change the
-            mainstream perception of tinned fish.
-          </p>
-        </div>
-      </a>
-      <a
-        href="https://www.hunker.com/13778125/salt-cellar-purpose"
-        target="_blank"
-        class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
-      >
-        <img
-          class="rounded-xl col-span-1 w-full object-cover h-[200px]"
-          src="./assets/img/hunker-salt.webp"
-          alt="An image of the new salt sphere being passed"
-        />
-        <div class="col-span-1 md:col-span-3 text-midnight">
-          <p class="uppercase text-xs md:text-sm">Hunker Home</p>
-          <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
-            Material Kitchen’s New Salt Sphere
-          </h2>
-          <p class="text-sm md:text-lg" >
-            Why You Need a Salt Cellar to Save Your Spices This Summer.
-          </p>
-           
-        </div>
-      </a>
-      <a
-        href="https://northforker.com/2020/08/9-north-fork-food-trucks-for-a-delicious-socially-distanced-date/"
-        target="_blank"
-        class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
-      >
-        <img
-          class="rounded-xl col-span-1 w-full object-cover h-[200px]"
-          src="./assets/img/food-truck.webp"
-          alt="A food truck with a sunset in the background"
-        />
-        <div class="col-span-1 md:col-span-3 text-midnight">
-          <p class="uppercase text-xs md:text-sm">northforker</p>
-          <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
-            Food Trucks on the North Fork 
-          </h2>
-          <p class="text-sm md:text-lg" >
-           9 North Fork food trucks for a delicious socially distanced date.
-           </p>
-        </div>
-      </a>
+        <button
+          onclick="changeTab(event, 'features')"
+          class="tablinks uppercase hover:text-midnight transition-colors tracking-1 active"
+          for="tab1"
+        >
+          Features
+        </button>
+        <button
+          onclick="changeTab(event, 'commerce')"
+          class="tablinks uppercase hover:text-midnight transition-colors tracking-1"
+          for="tab2"
+        >
+          Commerce
+        </button>
+      </div>
+
+      <div class="tabcontent active" id="features">
+        <a
+          href="https://ediblemanhattan.mydigitalpublication.com/publication/?m=62724&i=824754&p=26&ver=html5"
+          target="_blank"
+          class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
+        >
+          <img
+            class="rounded-xl w-full col-span-1 object-cover h-[200px]"
+            src="./assets/img/edible-manhattan.webp"
+            alt="Edible Manhatthan logo"
+          />
+          <div class="col-span-1 md:col-span-3 text-midnight">
+            <p class="uppercase text-xs md:text-sm">Edible Manhattan</p>
+            <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
+              Intersections: Urban Planning x Outdoor Dining
+            </h2>
+            <p class="text-sm md:text-lg">
+              Cityscapes vs. Tablescapes: The challenges of outdoor dining
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://www.cntraveler.com/story/this-tiktok-account-celebrates-americas-kitschiest-hotels"
+          target="_blank"
+          class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
+        >
+          <img
+            class="rounded-xl w-full col-span-1 object-cover h-[200px]"
+            src="./assets/img/Cool-Hotel-Tour.webp"
+            alt="A pretty cool Hotel Tour cover image from Condé Nast Traveler"
+          />
+          <div class="col-span-1 md:col-span-3 text-midnight">
+            <p class="uppercase text-xs md:text-sm">CONDÉ NAST TRAVELER</p>
+            <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
+              This TikTok Account Celebrates America’s Kitschiest Hotels
+            </h2>
+            <p class="text-sm md:text-lg">
+              ‘A Pretty Cool Hotel Tour’ features rooms decked out with
+              heart-shaped tubs, Roman chariot beds, and more.
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://www.architecturaldigest.com/story/yuns-hardware-store-kelly-wright-interview"
+          target="_blank"
+          class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
+        >
+          <img
+            class="rounded-xl col-span-1 w-full object-cover h-[200px]"
+            src="./assets/img/AD-Cover.webp"
+            alt="A flat shot of the Chapman screw set currently available at YUNSPhoto: Dereck Brewer for YUNS"
+          />
+          <div class="col-span-1 md:col-span-3 text-midnight">
+            <p class="uppercase text-xs md:text-sm">Architectural Digest</p>
+            <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
+              This Modern Hardware Store Will Help You Get Over Your Toolbox
+              Anxiety
+            </h2>
+            <p class="text-sm md:text-lg">
+              For Kelly Wright of Yuns, hardware is about more than tools.
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://www.cntraveler.com/story/meet-the-women-making-tinned-fish-cool"
+          target="_blank"
+          class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
+        >
+          <img
+            class="rounded-xl col-span-1 w-full object-cover h-[200px]"
+            src="./assets/img/SalmonSisters.webp"
+            alt="An image of the salmon sisters preparing a salmon, Courtesy Salmon Sisters"
+          />
+          <div class="col-span-1 md:col-span-3 text-midnight">
+            <p class="uppercase text-xs md:text-sm">Condé Nast Traveler</p>
+            <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
+              Meet the Women Making Tinned Fish Cool
+            </h2>
+            <p class="text-sm md:text-lg">
+              A string of female entrepreneurs are working to change the
+              mainstream perception of tinned fish.
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://www.hunker.com/13778125/salt-cellar-purpose"
+          target="_blank"
+          class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
+        >
+          <img
+            class="rounded-xl col-span-1 w-full object-cover h-[200px]"
+            src="./assets/img/hunker-salt.webp"
+            alt="An image of the new salt sphere being passed"
+          />
+          <div class="col-span-1 md:col-span-3 text-midnight">
+            <p class="uppercase text-xs md:text-sm">Hunker Home</p>
+            <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
+              Material Kitchen’s New Salt Sphere
+            </h2>
+            <p class="text-sm md:text-lg">
+              Why You Need a Salt Cellar to Save Your Spices This Summer.
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://northforker.com/2020/08/9-north-fork-food-trucks-for-a-delicious-socially-distanced-date/"
+          target="_blank"
+          class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
+        >
+          <img
+            class="rounded-xl col-span-1 w-full object-cover h-[200px]"
+            src="./assets/img/food-truck.webp"
+            alt="A food truck with a sunset in the background"
+          />
+          <div class="col-span-1 md:col-span-3 text-midnight">
+            <p class="uppercase text-xs md:text-sm">northforker</p>
+            <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
+              Food Trucks on the North Fork
+            </h2>
+            <p class="text-sm md:text-lg">
+              9 North Fork food trucks for a delicious socially distanced date.
+            </p>
+          </div>
+        </a>
+      </div>
+      <div class="tabcontent hidden" id="commerce">
+        <a
+          href="https://coolmaterial.com/lifestyle/supersmash-ping-pong-paddles-are-part-art-piece-part-rec-room-fun/"
+          target="_blank"
+          class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
+        >
+          <img
+            class="rounded-xl w-full col-span-1 object-cover h-[200px]"
+            src="./assets/img/cool-material-1.webp"
+            alt="Two beautifully designed pingpong paddles"
+          />
+          <div class="col-span-1 md:col-span-3 text-midnight">
+            <p class="uppercase text-xs md:text-sm">Cool Material</p>
+            <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
+             Supersmash Ping-Pong Paddles Are Part Art Piece, Part Rec-Room Fun
+            </h2>
+            <p class="text-sm md:text-lg">
+              The coolest table-tennis gear you'll ever see.
+
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://coolmaterial.com/guides/gifts/host-gifts/"
+          target="_blank"
+          class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
+        >
+          <img
+            class="rounded-xl w-full col-span-1 object-cover h-[200px]"
+            src="./assets/img/cool-material-2.webp"
+            alt="Beautiful outdoor picnic display"
+          />
+          <div class="col-span-1 md:col-span-3 text-midnight">
+            <p class="uppercase text-xs md:text-sm">Cool Material</p>
+            <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
+             6 Host Gifts That Will Get You Invited Back
+            </h2>
+            <p class="text-sm md:text-lg">
+              Hosting is a laborious and often thankless task. Be a better house guest with one of these gifts that go beyond the cliché bottle of wine.
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://coolmaterial.com/lifestyle/drinks/best-boxed-wine/"
+          target="_blank"
+          class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
+        >
+          <img
+            class="rounded-xl w-full col-span-1 object-cover h-[200px]"
+            src="./assets/img/cool-material-3.webp"
+            alt="Box of wine"
+          />
+          <div class="col-span-1 md:col-span-3 text-midnight">
+            <p class="uppercase text-xs md:text-sm">Cool Material</p>
+            <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
+             Boxed Wine Is Summer 2024’s Best Accessory. 
+            </h2>
+            <p class="text-sm md:text-lg">
+              These Are the 6 to Buy.
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://coolmaterial.com/lifestyle/drinks/non-alcoholic-beer/"
+          target="_blank"
+          class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
+        >
+          <img
+            class="rounded-xl w-full col-span-1 object-cover h-[200px]"
+            src="./assets/img/cool-material-4.webp"
+            alt="Non-alcoholic beer"
+          />
+          <div class="col-span-1 md:col-span-3 text-midnight">
+            <p class="uppercase text-xs md:text-sm">Cool Material</p>
+            <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
+             Non-Alcoholic Beer for 2024: 10 Cans for a Hangover-Free Summer
+            </h2>
+            <p class="text-sm md:text-lg">
+              Once an afterthought at best, breweries are now making non-alcoholic beers in many styles that are just as delicious as traditional beers.
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://www.hunker.com/13778125/salt-cellar-purpose"
+          target="_blank"
+          class="cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-8 w-full rounded-xl border border-transparent hover:shadow hover:border-midnight/10 p-0 md:p-8 transition-colors"
+        >
+          <img
+            class="rounded-xl w-full col-span-1 object-cover h-[200px]"
+            src="./assets/img/hunker-1.webp"
+            alt="Non-alcoholic beer"
+          />
+          <div class="col-span-1 md:col-span-3 text-midnight">
+            <p class="uppercase text-xs md:text-sm">Hunker Home</p>
+            <h2 class="font-header text-xl md:text-3xl mt-2 mb-2 md:mb-4">
+              Why You Need a Salt Cellar to Save Your Spices This Summer
+            </h2>
+            <p class="text-sm md:text-lg">
+              There's a simple way to keep your spices fresh during the summer months though, and it also happens to be the chicest: the salt cellar. 
+            </p>
+          </div>
+        </a>
+      </div>
     </main>
     <footer
       class="w-full mt-10 flex flex-wrap items-baseline justify-center sm:justify-between"
@@ -219,5 +396,31 @@
         &copy; 2023 SYLVIE FLORMAN. ALL RIGHTS RESERVED
       </p>
     </footer>
+    <script>
+      
+        const changeTab = (evt, tabName) =>{
+          // Declare all variables
+          var i, tabcontent, tablinks;
+
+          // Get all elements with class="tabcontent" and hide them
+          tabcontent = document.getElementsByClassName('tabcontent');
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].classList.add("hidden");
+          }
+
+          // Get all elements with class="tablinks" and remove the class "active"
+          tablinks = document.getElementsByClassName('tablinks');
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active");
+            
+          }
+
+          // Show the current tab, and add an "active" class to the button that opened the tab
+          document.getElementById(tabName).classList.remove('hidden');
+          document.getElementById(tabName).classList.add('block');
+          evt.currentTarget.className += ' active';
+        }
+       
+    </script>
   </body>
 </html>
